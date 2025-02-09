@@ -1,0 +1,258 @@
+{
+    "uuid": "2cb04b19-db5e-43b7-8f5e-c28c40870e83",
+    "name": "Signup with already exists details",
+    "historyId": "6242c515a730b450fa34930d3daa3c44:b444eb0fbe6390c71e68b51dd25701fc",
+    "status": "passed",
+    "statusDetails": {},
+    "stage": "finished",
+    "steps": [
+        {
+            "status": "passed",
+            "statusDetails": {},
+            "stage": "finished",
+            "steps": [
+                {
+                    "status": "passed",
+                    "statusDetails": {},
+                    "stage": "finished",
+                    "steps": [
+                        {
+                            "status": "passed",
+                            "statusDetails": {},
+                            "stage": "finished",
+                            "steps": [
+                                {
+                                    "status": "passed",
+                                    "statusDetails": {},
+                                    "stage": "finished",
+                                    "steps": [],
+                                    "attachments": [],
+                                    "parameters": [],
+                                    "start": 1738988421133,
+                                    "name": "browser.newContext",
+                                    "stop": 1738988421142
+                                }
+                            ],
+                            "attachments": [],
+                            "parameters": [],
+                            "start": 1738988421131,
+                            "name": "fixture: context",
+                            "stop": 1738988421144
+                        },
+                        {
+                            "status": "passed",
+                            "statusDetails": {},
+                            "stage": "finished",
+                            "steps": [
+                                {
+                                    "status": "passed",
+                                    "statusDetails": {},
+                                    "stage": "finished",
+                                    "steps": [],
+                                    "attachments": [],
+                                    "parameters": [],
+                                    "start": 1738988421150,
+                                    "name": "browserContext.newPage",
+                                    "stop": 1738988422835
+                                }
+                            ],
+                            "attachments": [],
+                            "parameters": [],
+                            "start": 1738988421147,
+                            "name": "fixture: page",
+                            "stop": 1738988422835
+                        },
+                        {
+                            "status": "passed",
+                            "statusDetails": {},
+                            "stage": "finished",
+                            "steps": [],
+                            "attachments": [],
+                            "parameters": [],
+                            "start": 1738988422839,
+                            "name": "page.goto(https://www.automationexercise.com/)",
+                            "stop": 1738988427503
+                        }
+                    ],
+                    "attachments": [],
+                    "parameters": [],
+                    "start": 1738988421125,
+                    "name": "beforeEach hook",
+                    "stop": 1738988427503
+                }
+            ],
+            "attachments": [],
+            "parameters": [],
+            "start": 1738988421124,
+            "name": "Before Hooks",
+            "stop": 1738988427504
+        },
+        {
+            "status": "passed",
+            "statusDetails": {},
+            "stage": "finished",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "start": 1738988427509,
+            "name": "page.waitForSelector(//a[@href='/login'])",
+            "stop": 1738988428151
+        },
+        {
+            "status": "passed",
+            "statusDetails": {},
+            "stage": "finished",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "start": 1738988428154,
+            "name": "page.click(//a[@href='/login'])",
+            "stop": 1738988429546
+        },
+        {
+            "status": "passed",
+            "statusDetails": {},
+            "stage": "finished",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "start": 1738988429549,
+            "name": "page.fill(//*[@name=\"name\"])",
+            "stop": 1738988429854
+        },
+        {
+            "status": "passed",
+            "statusDetails": {},
+            "stage": "finished",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "start": 1738988429856,
+            "name": "page.fill(//*[@data-qa=\"signup-email\"])",
+            "stop": 1738988429881
+        },
+        {
+            "status": "passed",
+            "statusDetails": {},
+            "stage": "finished",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "start": 1738988429883,
+            "name": "page.click(//*[@data-qa=\"signup-button\"])",
+            "stop": 1738988430511
+        },
+        {
+            "status": "passed",
+            "statusDetails": {},
+            "stage": "finished",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "start": 1738988430513,
+            "name": "locator.textContent(//p[@style=\"color: red;\"])",
+            "stop": 1738988430618
+        },
+        {
+            "status": "passed",
+            "statusDetails": {},
+            "stage": "finished",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "start": 1738988430620,
+            "name": "expect.toBe",
+            "stop": 1738988430621
+        },
+        {
+            "status": "passed",
+            "statusDetails": {},
+            "stage": "finished",
+            "steps": [
+                {
+                    "status": "passed",
+                    "statusDetails": {},
+                    "stage": "finished",
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": [],
+                    "start": 1738988430623,
+                    "name": "fixture: page",
+                    "stop": 1738988430647
+                },
+                {
+                    "status": "passed",
+                    "statusDetails": {},
+                    "stage": "finished",
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": [],
+                    "start": 1738988430623,
+                    "name": "fixture: context",
+                    "stop": 1738988430624
+                }
+            ],
+            "attachments": [],
+            "parameters": [],
+            "start": 1738988430622,
+            "name": "After Hooks",
+            "stop": 1738988430771
+        }
+    ],
+    "attachments": [
+        {
+            "name": "stdout",
+            "source": "64a600bf-0f1c-4622-8325-bee7c83df8c0-attachment.txt",
+            "type": "text/plain"
+        }
+    ],
+    "parameters": [
+        {
+            "name": "Project",
+            "value": "firefox"
+        }
+    ],
+    "labels": [
+        {
+            "name": "language",
+            "value": "javascript"
+        },
+        {
+            "name": "framework",
+            "value": "playwright"
+        },
+        {
+            "name": "package",
+            "value": "signup.spec.js"
+        },
+        {
+            "name": "titlePath",
+            "value": " > firefox > signup.spec.js > Check the signup functionality"
+        },
+        {
+            "name": "host",
+            "value": "DESKTOP-LLL16K7"
+        },
+        {
+            "name": "thread",
+            "value": "pid-6764-worker-1"
+        },
+        {
+            "name": "parentSuite",
+            "value": "firefox"
+        },
+        {
+            "name": "suite",
+            "value": "signup.spec.js"
+        },
+        {
+            "name": "subSuite",
+            "value": "Check the signup functionality"
+        }
+    ],
+    "links": [],
+    "start": 1738988421195,
+    "testCaseId": "6242c515a730b450fa34930d3daa3c44",
+    "fullName": "signup.spec.js:17:5",
+    "stop": 1738988430832
+}

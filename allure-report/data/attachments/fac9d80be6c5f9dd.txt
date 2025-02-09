@@ -1,0 +1,3 @@
+Waiting for XPath: //*[@data-toggle="collapse"][1]
+Clicking element with XPath: //*[@data-toggle="collapse"][1]
+Waiting for XPath: //*[@data-toggle="collapse"][2]

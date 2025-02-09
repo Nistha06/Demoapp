@@ -1,0 +1,2 @@
+Cart is empty! Click here to buy products.
+Move to home page
